@@ -1,4 +1,4 @@
-The primary source of documentation is the wiki on github:
+The primary documentation source is the wiki on github:
 
 https://github.com/joshcam/ReactorForge/wiki
 
