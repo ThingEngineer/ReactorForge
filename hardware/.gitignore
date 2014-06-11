@@ -1,10 +1,5 @@
-# kicad backup files
-*.000
-*.bak
-*.bck
-$savepcb.*
-
 # gerber and drill files
+gerber/
 *.gbl
 *.gtl
 *.gbr
@@ -15,9 +10,19 @@ $savepcb.*
 *.gbo
 *.gto
 *.gtp
+*.gko
 *.drl
 
-# other kicad generated files
-*.csv
-*.svg
-*.pdf
+# eagle backup files
+*.s#*
+*.b#*
+*.bck
+$savepcb.*
+
+# other eagle generated files
+*DESCRIPTION
+eagle.epf
+
+#misc
+exports/
+*.zip
