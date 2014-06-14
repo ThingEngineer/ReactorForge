@@ -15,5 +15,12 @@ Using less discreet parts than most commercial induction heaters, the ReactorFor
 
 The ReactorForge will be made available in a raw kit form or an ARU Kit (Almost Ready to Use) that can be assembled in just hours. Learn about high power electronics while building an awesome machine. The same systems in an induction heater also drive many of todays modern advances such as electric vehicles, renewable energy power inverters, cutting edge research equipment, and much more. Whether your goals are academic or you want to start using an induction heater today the ReactorForge project brings all that within reach.
 
+[![CriticalMass Test Run](http://img.youtube.com/vi/C8s0zIcqVfk/0.jpg)](http://www.youtube.com/watch?v=C8s0zIcqVfk)
+
+(vidoe: Test run of the ReactorForge : CriticalMass +15Kw platform)
+
+
 ## Open Source
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>  <a rel="license" href="http://creativecommons.org/freeworks"><img alt="Approved for Free Cultural Works" style="border-width:0" height="32" width="32" src="http://creativecommons.org/images/deed/seal.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+
