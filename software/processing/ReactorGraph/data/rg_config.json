@@ -1,6 +1,6 @@
 {
   "core": {
-    "port": 2,
+    "port": 3,
     "field_delimiter": ",",
     "log_file": "log.csv",
     "retrace_mode": false,
