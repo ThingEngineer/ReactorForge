@@ -1,7 +1,7 @@
 ReactorForge
 ============
 
-This repository contains hardware designs, firmware and software for ReactorForge, a project to produce an open source induction heating platform.
+This repository contains hardware designs, firmware and software for ReactorForge, an open source high power induction heating platform.
 
 ![ReactorForge CriticalMass Beta](https://raw.github.com/joshcam/ReactorForge/master/doc/images/beta_assembly.jpg)
 (photo: assembly of the first ReactorForge CriticalMass beta board)
