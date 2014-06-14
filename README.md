@@ -1,4 +1,4 @@
-ReactorForge
+![ReactorForge - They catalyst for creation](https://raw.github.com/joshcam/ReactorForge/master/doc/images/RF_logo_2_transparent.png)
 ============
 
 This repository contains hardware designs, firmware and software for ReactorForge, an open source high power induction heating platform.
