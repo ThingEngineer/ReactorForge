@@ -1,0 +1,100 @@
+{
+  "core": {
+    "port": 2,
+    "field_delimiter": ",",
+    "log_file": "log.csv",
+    "retrace_mode": false,
+    "buffer_size": 500,
+    "win_w": 1600,
+    "win_h": 800,
+    "log_to_file": false,
+    "start_word_h": "FE",
+    "grid_h_step": 10,
+    "start_word_l": "B0",
+    "grid_v_step": 10,
+    "baudrate": 57600
+  },
+  "fields": [
+    {
+      "min": 0,
+      "g": 0,
+      "max": 512,
+      "b": 255,
+      "r": 0,
+      "signed": false,
+      "name": "Setpoint"
+    },
+    {
+      "min": 0,
+      "g": 255,
+      "max": 512,
+      "b": 0,
+      "r": 255,
+      "signed": false,
+      "name": "Ontime"
+    },
+    {
+      "min": 0,
+      "g": 255,
+      "max": 512,
+      "b": 255,
+      "r": 0,
+      "signed": true,
+      "name": "Phase"
+    },
+    {
+      "min": 0,
+      "g": 0,
+      "max": 512,
+      "b": 100,
+      "r": 255,
+      "signed": true,
+      "name": "Phase Avg"
+    },
+    {
+      "min": -255,
+      "g": 200,
+      "max": 20,
+      "b": 200,
+      "r": 200,
+      "signed": true,
+      "name": "Phase Adj"
+    },
+    {
+      "min": -5,
+      "g": 200,
+      "max": 100,
+      "b": 100,
+      "r": 200,
+      "signed": false,
+      "name": "Error Current"
+    },
+    {
+      "min": 0,
+      "g": 255,
+      "max": 1024,
+      "b": 0,
+      "r": 0,
+      "signed": false,
+      "name": "Max Current"
+    },
+    {
+      "min": 0,
+      "g": 0,
+      "max": 1024,
+      "b": 255,
+      "r": 255,
+      "signed": false,
+      "name": "Inverter Current"
+    },
+    {
+      "min": 0,
+      "g": 0,
+      "max": 1024,
+      "b": 0,
+      "r": 255,
+      "signed": false,
+      "name": "Mains Current"
+    }
+  ]
+}
