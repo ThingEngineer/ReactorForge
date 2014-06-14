@@ -1,7 +1,13 @@
-// Josh Campbell 
-// 1/2013
-// http://reactorforge.com
-// Data plotting and loging of serial data
+//-----------------------------------------------------------------------
+// File:		ReactorGraph.pde
+// Name:		Josh Campbell
+// Date:		01/2013
+// URL:			https://github.com/joshcam/ReactorForge/tree/master/software/processing/ReactorGraph
+//
+// Description:	Display, plotting and logging of serial data
+//
+// Usage:		Use rg_config.json to configure settings and data fields.
+//-----------------------------------------------------------------------
 
 import processing.serial.*;
 
