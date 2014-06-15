@@ -5,7 +5,7 @@ This repository contains hardware designs, firmware and software for ReactorForg
 
 For project status and information about hardware availability visit [ReactorForge.com](http://reactorforge.com/). And besure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
 
-![ReactorForge CriticalMass Beta](https://raw.github.com/joshcam/ReactorForge/master/doc/images/beta_assembly.jpg)
+![ReactorForge CriticalMass Beta](https://raw.github.com/joshcam/ReactorForge/master/doc/images/beta_assembly.png)
 (photo: assembly of the first ReactorForge CriticalMass beta board)
 
 principal author: Joshua Campbell josh.lee.campbell@gmail.com
