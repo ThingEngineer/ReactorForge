@@ -9,7 +9,7 @@ This repository contains hardware designs, firmware and software for ReactorForg
 principal author: Joshua Campbell josh.lee.campbell@gmail.com
 
 ## Project Description
-The ReactorForge project is an open source hardware platform for high power induction heating, designed for heavy use in realworld applications and reliable performance with a long life.
+The ReactorForge project is an open source hardware platform for high power induction heating, designed for heavy use and reliable performance in realworld applications.
 
 Using less discreet parts than most commercial induction heaters, the ReactorForge is easy to assemble and has fewer failure points. It is an open source project with all plans, schematics and code available under the Creative Commons License. This not only benefits the maker community and improves future designs but also makes self repair a possibility for those who have purchased kits, rather than relying on expensive factory repairs to proprietary commercial units.
 
