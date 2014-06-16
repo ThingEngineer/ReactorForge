@@ -23,7 +23,7 @@ The ReactorForge costs thousands less than equivalent commercial models with fea
 
 (vidoe: Test run of the ReactorForge : CriticalMass +15Kw platform)
 
-## Safety Notice/Disclamer
+## Safety Notice and Disclamer
 An induction heater is a high power device that should be treated with similar respect to that of a welder. In addition the following saftey guidlines should be observed:
 
 * Don't wear metal jewelry, especially rings near the work coil. Heating can occur a few inches from the coil depending on its geometry.
