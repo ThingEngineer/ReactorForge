@@ -23,6 +23,15 @@ The ReactorForge costs thousands less than equivalent commercial models with fea
 
 (vidoe: Test run of the ReactorForge : CriticalMass +15Kw platform)
 
+## Safety Notice/Disclamer
+An induction heater is a high power device that should be treated with similar respect to that of a welder. In addition the following saftey guidlines should be observed:
+
+* Don't wear metal jewelry, especially rings near the work coil. Heating can occur a few inches from the coil depending on its geometry.
+* Be cautious if you have metal implants, they too could heat up if held near the work coil.
+* If you have a pacemaker or defibrillator never use, be near, or look at this machine when it is in operation.
+* Never touch the coil, particularly where it exits the machine. Although it is isolated from dangerous mains current, like a welder, there is still high power RF present. You could get an RF burn or a painful jolt. Holding metal that touches or shorts it out the coil is NOT a hazard.
+
+The hazards are similar but not limited to that of home induction cooktops. We hold no responsibility or liability for injury to person or damage to property should you choose to build and operate one of these machines. If you feel you are not qualified to build or operate an induction heater find someone qualified and willing to assist you.
 
 ## Open Source
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>  <a rel="license" href="http://creativecommons.org/freeworks"><img alt="Approved for Free Cultural Works" style="border-width:0" height="32" width="32" src="http://creativecommons.org/images/deed/seal.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
