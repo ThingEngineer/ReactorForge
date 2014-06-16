@@ -9,3 +9,8 @@ Thumbs.db
 *.swp
 *.sublime-project
 *.sublime-workspace
+
+# Source files
+source/
+*.ai
+*.psd
