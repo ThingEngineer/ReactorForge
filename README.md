@@ -29,7 +29,7 @@ An induction heater is a high power device that should be treated with similar r
 * Don't wear metal jewelry, especially rings near the work coil. Heating can occur a few inches from the coil depending on its geometry.
 * Be cautious if you have metal implants, they too could heat up if held near the work coil.
 * If you have a pacemaker or defibrillator never use, be near, or look at this machine when it is in operation.
-* Never touch the coil, particularly where it exits the machine. Although it is isolated from dangerous mains current, like a welder, there is still high power RF present. You could get an RF burn or a painful jolt. Holding metal that touches or shorts it out the coil is NOT a hazard.
+* Never touch the work coil, particularly where it exits the machine. Although it is isolated from dangerous mains current, like a welder, there is still high power RF present. You could get an RF burn or a painful jolt. Holding metal that touches or shorts out the work coil is NOT a hazard.
 
 The hazards are similar but not limited to that of home induction cooktops. We hold no responsibility or liability for injury to person or damage to property should you choose to build and operate one of these machines. If you feel you are not qualified to build or operate an induction heater find someone qualified and willing to assist you.
 
