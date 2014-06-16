@@ -55,8 +55,8 @@ void setup()
   
   //Logo
   textSize(28);
-  fill(255, 0, 0);    text("Reactor", 700, 630);
-  fill(255);          text("Graph", 800, 630);
+  fill(0);    text("Reactor", 700, 630);
+  fill(255, 0, 0);          text("Graph", 800, 630);
   
   // Legend Text
   textSize(20);
