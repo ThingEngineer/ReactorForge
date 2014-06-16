@@ -7,3 +7,5 @@ Hybrid Driver is a dual IGBT module gate driver based on the Powerex M57962L hyb
 Powerex M57962L Hybrid IC [Datasheet](http://www.pwrx.com/pwrx/docs/m57962.pdf)
 
 Powerex VLA106-15242 DC to DC Converter [Datasheet](http://www.pwrx.com/pwrx/docs/vla106_15242.pdf)
+
+![Hybrid Driver Connections](https://raw.githubusercontent.com/joshcam/ReactorForge/master/doc/images/hybrid_driver_connections.png)
