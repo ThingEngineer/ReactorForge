@@ -1,0 +1,30 @@
+Partlist - Exported from Reactor Driver.sch                      
+                                                                 
+Part     Value          Device        	Package                    
+                                                                   
+C1       82uF           CPOL-USE2.5-7 	E2,5-7                     
+C2       82uF           CPOL-USE2.5-7 	E2,5-7                     
+C4       150uF          CPOL-USE5-8.5 	E5-8,5                     
+C5       82uF           CPOL-USE2.5-7 	E2,5-7                     
+C6       82uF           CPOL-USE2.5-7 	E2,5-7                     
+C8       150uF          CPOL-USE5-8.5 	E5-8,5                     
+CN1      MTA100-6       MTA06-100     	10X06MTA                   
+D1       MUR1100E       OA95          	DO07                       
+D2       MUR1100E       OA95          	DO07                       
+D3       MUR1100E       OA95          	DO07                       
+D4       MUR1100E       OA95          	DO07                       
+DZ1      1N4745         1N5338        	DIODE.4-AXIAL              
+DZ2      1N4745         1N5338        	DIODE.4-AXIAL              
+DZ3      1N4751         1N5338        	DIODE.4-AXIAL              
+DZ4      1N4745         1N5338        	DIODE.4-AXIAL              
+DZ5      1N4745         1N5338        	DIODE.4-AXIAL              
+DZ6      1N4751         1N5338        	DIODE.4-AXIAL              
+OP1      PS2501         PC817         	DIL04                      
+OP2      PS2501         PC817         	DIL04                      
+R1       4.7K           R-US_0207/10  	0207/10                    
+R2       4.7K           R-US_0207/10  	0207/10                    
+R3       4.7K           R-US_0207/10  	0207/10                    
+U1       M57962L        VLA504-01     	HYBRID-IC-IBGT-GATE-DRIVER 
+U2       VLA106-15242   VLA106-15242  	ISOLATED_DC_DC_CONVERTER   
+U3       M57962L        VLA504-01     	HYBRID-IC-IBGT-GATE-DRIVER 
+U4       VLA106-15242   VLA106-15242  	ISOLATED_DC_DC_CONVERTER
