@@ -5,6 +5,8 @@ This repository contains hardware designs, firmware and software for ReactorForg
 
 For project status and information about hardware availability visit [ReactorForge.com](http://reactorforge.com/) and be sure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
 
+You can now support this project on [Patreon](https://www.patreon.com/ReactorForge). Let's get this thing going!
+
 ![ReactorForge Control Board - ReactorCore](https://raw.github.com/joshcam/ReactorForge/master/doc/images/core/beta_assembly.png)
 (photo: assembly of the beta ReactorCore, ReactorForge CriticalMass control board)
 
@@ -30,7 +32,7 @@ An induction heater is a high power device that should be treated with hazards s
 * Be cautious if you have metal implants, they too could heat up if held near the work coil.
 * If you have a pacemaker or other medical implants never use or be near this machine while it is in operation.
 * Keep electronics at least 12 inches from the work coil while in operation to avoid damage to these devices.
-* Never touch the work coil. Although it is isolated from dangerous mains current, there is still high power present. Holding metal objects that touch or short out the work coil is NOT a hazard.
+* Never touch the work coil. Although it is isolated from dangerous mains current, there is still high power present. Holding metal objects that touch or short out the work coil will not harm the unit.
 * Wear appropriate PPE, including but not limited to safety glasses and gloves.
 
 We hold no responsibility or liability for injury to person or damage to property should you choose to build and operate one of these machines. If you feel you are not qualified to build or operate an induction heater find someone qualified and willing to assist you.
