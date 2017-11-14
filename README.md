@@ -3,7 +3,7 @@
 
 This repository contains hardware designs, board schematics, firmware, and software for ReactorForge, an open source high power induction heating platform.
 
-Updates, polls, etc. on this project are being posted on the new Patreon page: [Patreon](https://www.patreon.com/ReactorForge). You can also support the future of this project there as well.
+Updates, polls, etc. on this project are being posted on the new Patreon page: [ReactorForge on Patreon](https://www.patreon.com/ReactorForge). You can also support the future of this project there as well.
 
 For project status and information about hardware availability visit [ReactorForge.com](http://reactorforge.com/) and be sure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
 
