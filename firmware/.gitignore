@@ -1,8 +1,2 @@
-# BASCOM files
-*.rpt
-*.obj
-*.dbg
-*.BM
-*.SIM
-*.hex
-*.bin
+# Atmel Studio files
+Debug/
