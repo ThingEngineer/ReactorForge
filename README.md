@@ -1,7 +1,7 @@
 ![ReactorForge - They catalyst for creation](https://raw.github.com/joshcam/ReactorForge/master/doc/images/RF_logo_2_transparent.png)
 ============
 
-This repository contains hardware designs, board schematics, firmware, and software for ReactorForge, an open source high power induction heating platform.
+This repository contains hardware designs, board schematics, firmware, and software for ReactorForge, an open source high power induction heater platform.
 
 Updates, polls, etc. on this project are being posted on the new Patreon page: [ReactorForge on Patreon](https://www.patreon.com/ReactorForge). You can also support the future of this project there as well.
 
