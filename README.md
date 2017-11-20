@@ -5,6 +5,8 @@ This repository contains hardware designs, board schematics, firmware, and softw
 
 Updates, polls, etc. on this project are being posted on the new Patreon page: [ReactorForge on Patreon](https://www.patreon.com/ReactorForge). You can also support the future of this project there as well.
 
+Official Blog: [blog.reactorforge.com](http://blog.reactorforge.com)
+
 For project status and information about hardware availability visit [ReactorForge.com](http://reactorforge.com/) and be sure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
 
 ![ReactorForge Control Board - ReactorCore](https://raw.github.com/joshcam/ReactorForge/master/doc/images/core/beta_assembly.png)
