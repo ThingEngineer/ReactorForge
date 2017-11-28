@@ -5,7 +5,7 @@ This repository contains hardware designs, board schematics, firmware, and softw
 
 Updates, polls, etc. on this project are being posted on the new Patreon page: [ReactorForge on Patreon](https://www.patreon.com/ReactorForge). You can also support the future of this project there as well.
 
-For project statu, official blog, and information about hardware availability visit [ReactorForge.com](https://reactorforge.com/) and be sure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
+For project status, official blog, and information about hardware availability visit [ReactorForge.com](https://reactorforge.com/) and be sure to read the [ReactorForge Wiki](https://github.com/joshcam/ReactorForge/wiki).
 
 ![ReactorForge Control Board - ReactorCore](https://raw.github.com/joshcam/ReactorForge/master/doc/images/core/beta_assembly.png)
 (photo: assembly of the beta ReactorCore, ReactorForge CriticalMass control board)
