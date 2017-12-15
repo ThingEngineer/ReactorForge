@@ -13,7 +13,7 @@
   "name": "Atmel AT90PWM316",
   "upload": {
     "maximum_ram_size": 1024,
-    "maximum_size": 16128
+    "maximum_size": 16384
   },
   "url": "http://www.microchip.com/wwwproducts/en/AT90PWM316",
   "vendor": "Microchip"
