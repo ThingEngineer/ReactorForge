@@ -1,0 +1,17 @@
+ReactorForge - Development Environment
+
+https://atom.io + https://atom.io/packages/platomformio = frickin awesome
+
+Arduino is a great prototyping platform and IDE. As a beginner, it can get you building projects faster than any other
+platform out there. But eventually, the features that make it convenient and easy to use hold you back. It lacks many
+features which make writing code quicker, easier, and have become quite standard in modern text editors. The next
+logical step is to leave the Arduino IDE behind. We do that by working in a more fully-featured development environment.
+Atom + PlatformIO is my new favorite open source cross-platform IDE. It even comes with the Arduino framework among
+others. That lets you test drive it with a code structure you are familiar. When you are ready, you can remove the
+training wheels and go full native C++. There is so much more I could brag about with both of these tools. But I’ll let
+you discover the awesomeness yourself!
+
+Useful Info:
+http://flight-manual.atom.io
+http://platformio.org
+https://reactorforge.com/development-environment/
