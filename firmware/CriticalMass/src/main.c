@@ -42,7 +42,6 @@ void setup() {
 	DDRD = 0b10000000;
 	DDRC = 0b00001100;
 	DDRE = 0b00000000;
-	//TODO use hardware alias masks here
 
 	// Initial output port states
 	bit_clear(INDICATOR_PORT, BIT(INDICATOR_BIT));
