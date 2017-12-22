@@ -1,11 +1,34 @@
 /*
- * ReactorForge
- * main.c
+ * File:      main.c
+ * Title      ReactorForge - CriticalMass
+ * Hardware:  ReactorCore AT90PWM316
+ * Author:    Josh Campbell
+ * Created:   8/24/2013
+ * Modified:  12/22/2017
+ * Version:   0.0.a1
+ * Link:      https://github.com/ThingEngineer/ReactorForge
+ * Website:   https://reactorforge.com
+ * DESCRIPTION
+ *        The ReactorForge project is an open source hardware platform for
+ *        high power induction heating, designed for heavy use and reliable
+ *        performance in real-world applications.
  *
- * Created: 8/24/2013 11:34:53 PM
- * Author: Josh Campbell
- * Lock and Fuse Bits: 0HFF , 0HF3 , 0HDE , 0HC9
+ * Coding Standards:
+ *        WIP - These standards are not yet fully implemented.
+ *        http://ieng9.ucsd.edu/~cs30x/indhill-cstyle.html
+ *        https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html
+ *
+ * This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+ *
+ * THIS CODE AND ASSOCIATED DOCUMENTATION (THE "SOFTWARE") IS PROVIDED "AS IS",
+ * WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+ * TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+ * FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ * THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 
 #include <main.h>
 
