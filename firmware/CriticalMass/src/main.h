@@ -47,14 +47,13 @@ void decr_freq(void);
 void set_frequency(void);
 uint16_t get_adc(uint8_t);
 
-void uart_print8(uint8_t val);
-void uart_print16(uint16_t val);
-
-void uart_putchar(char c, FILE *stream);
-char uart_getchar(FILE *stream);
+static void uart_print8(uint8_t val);
+static void uart_print16(uint16_t val);
+static int uart_putchar(char c, FILE *stream);
+static int uart_getchar(FILE *stream);
 
 static uint8_t search_sensors(void);
-uint8_t gSensorIDs[MAXSENSORS][OW_ROMCODE_SIZE];
+static uint8_t gSensorIDs[MAXSENSORS][OW_ROMCODE_SIZE];
 
 int read_buttons(void);
 
@@ -77,8 +76,8 @@ int read_buttons(void);
 #define LONGBIT(x) ((unsigned long)0x00000001 << (x))
 #define BIT_VAL(x,y) (((x) >> (y)) & 1)
 
-FILE uart_output = FDEV_SETUP_STREAM(uart_putchar, NULL, _FDEV_SETUP_WRITE);	// SDOUT buffer
-FILE uart_input = FDEV_SETUP_STREAM(NULL, uart_getchar, _FDEV_SETUP_READ);		// SDIN buffer
+static FILE uart_output = FDEV_SETUP_STREAM(uart_putchar, NULL, _FDEV_SETUP_WRITE);	// SDOUT buffer
+static FILE uart_input = FDEV_SETUP_STREAM(NULL, uart_getchar, _FDEV_SETUP_READ);		// SDIN buffer
 //FILE uart_io FDEV_SETUP_STREAM(uart_putchar, uart_getchar, _FDEV_SETUP_RW);	// One buffer which works for both SDIN and SDOUT.
 
 
