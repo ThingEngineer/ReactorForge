@@ -14,3 +14,4 @@ LOW PRIORITY
   Add function DOCUMENTATION
   Add variable DOCUMENTATION
   Add License Link
+  Clean up comments - Tab spacing, capitalization, punctuation, clarity, location (above code or to the right of it)
