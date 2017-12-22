@@ -1384,7 +1384,7 @@ void decr_freq(void)
 
 /****************************************************************************
 * NAME:        set_frequency
-* DESCRIPTION: Calculate and set inverter PWM output compare registers
+* DESCRIPTION: Calculate and set inverter PWM output compare registers based on deadtime and ontime
 * ARGUMENTS:   void
 * RETURNS:     void
 ****************************************************************************/
