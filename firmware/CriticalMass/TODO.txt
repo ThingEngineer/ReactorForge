@@ -12,3 +12,4 @@ LOW PRIORITY
   Rename functions (more descriptive, less abbreviations)
   Add function DOCUMENTATION
   Add variable DOCUMENTATION
+  Add License Link
