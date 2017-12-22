@@ -1,4 +1,14 @@
-TODO
+****TODO****
+  This list if for tasks which are not substantial enough for a GitHub issue.
+  More a working scratchpad for cleanup and alpha level development issues and ideas.
 
-Update libraries
-Move obsolete test code out of main
+HIGH PRIORITY
+
+  Update libraries
+  Move obsolete test code out of main
+
+LOW PRIORITY
+
+  Rename functions (more descriptive, less abbreviations)
+  Add function DOCUMENTATION
+  Add variable DOCUMENTATION
