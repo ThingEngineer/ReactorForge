@@ -9,6 +9,7 @@ HIGH PRIORITY
 
 LOW PRIORITY
 
+  Use hardware alias masks to set port data direction registers and pull ups
   Rename functions (more descriptive, less abbreviations)
   Add function DOCUMENTATION
   Add variable DOCUMENTATION
