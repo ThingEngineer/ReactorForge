@@ -80,6 +80,9 @@ static FILE uart_output = FDEV_SETUP_STREAM(uart_putchar, NULL, _FDEV_SETUP_WRIT
 static FILE uart_input = FDEV_SETUP_STREAM(NULL, uart_getchar, _FDEV_SETUP_READ);		// SDIN buffer
 //FILE uart_io FDEV_SETUP_STREAM(uart_putchar, uart_getchar, _FDEV_SETUP_RW);	// One buffer which works for both SDIN and SDOUT.
 
+// Store string in PROGMEM rather than loading into RAM at program start
+#define F(string_literal) (reinterpret_cast<const __FlashStringHelper *>(PSTR(string_literal)))
+
 
 /****************************************************************************
 * Port aliases
