@@ -1,0 +1,15 @@
+****IDEA Scratchpad****
+
+
+Use a boot loader
+	One port to program and monitor serial data
+  Additional programmer not needed
+	Will have to add a usb to serial chip and passives to main board
+  Will make firmware updates / hacking easier for end user
+
+Use an LCD with as serial backpack (i2s, spi, etc)
+  Current LCD configuration uses 6 ports
+  Will free up ports using a common bus
+  Don't currently need the ports but its something to consider
+	Simpler programing interface with standard libraries
+  Slower refresh but that shouldn't matter

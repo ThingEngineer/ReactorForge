@@ -1,6 +1,6 @@
 ****TODO****
   This list is for tasks which are not substantial enough for a GitHub issue.
-  Its more of a working scratchpad for cleanup and alpha level development issues and ideas.
+  Its more of a working scratchpad for cleanup and alpha level development issues.
 
 --HIGH PRIORITY--
 
