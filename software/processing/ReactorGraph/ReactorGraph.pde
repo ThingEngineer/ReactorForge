@@ -47,8 +47,9 @@ void setup()
     g_data[i] = new cDataArray(core.getInt("buffer_size"));    // Instantiate a cDataArray object for each chart trace
   }
   
-  println(Serial.list());
+  //println(Serial.list());
   g_serial = new Serial(this, Serial.list()[core.getInt("port")], core.getInt("baudrate"), 'N', 8, 1.0);
+  //println(g_serial);
   
   g_font = loadFont("ArialMT-20.vlw");
   textFont(g_font, 20);
