@@ -508,7 +508,7 @@ int main(void)
 // 	}
 // }
 
-	//bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
+	bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
 	//#########################################################################################
 	if (lcd_key == btn1)	// Enter manual control mode if button 1 is held during startup
 	{
