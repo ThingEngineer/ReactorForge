@@ -8,6 +8,9 @@
  * Version:   0.0.a1
  * Link:      https://github.com/ThingEngineer/ReactorForge
  * Website:   https://reactorforge.com
+ * This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+ * License:		https://reactorforge.com/licence/
+ *
  * DESCRIPTION
  *        The ReactorForge project is an open source hardware platform for
  *        high power induction heating, designed for heavy use and reliable
@@ -18,7 +21,7 @@
  *        http://ieng9.ucsd.edu/~cs30x/indhill-cstyle.html
  *        https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html
  *
- * This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
  *
  * THIS CODE AND ASSOCIATED DOCUMENTATION (THE "SOFTWARE") IS PROVIDED "AS IS",
  * WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
