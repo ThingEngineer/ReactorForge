@@ -1,13 +1,13 @@
 ****TODO****
-  This list if for tasks which are not substantial enough for a GitHub issue.
-  More a working scratchpad for cleanup and alpha level development issues and ideas.
+  This list is for tasks which are not substantial enough for a GitHub issue.
+  Its more of a working scratchpad for cleanup and alpha level development issues and ideas.
 
-HIGH PRIORITY
+--HIGH PRIORITY--
 
   Update libraries
   Move obsolete test code out of main
 
-LOW PRIORITY
+--LOW PRIORITY--
 
   Use hardware alias masks to set port data direction registers and pull ups
   Rename functions (more descriptive, less abbreviations)
