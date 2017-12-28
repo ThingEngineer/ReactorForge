@@ -154,78 +154,13 @@ int main(void)
 	lcd_gotoxy(0,3);
 
 	lcd_key = read_buttons();
-
-
-// 	lcd_clrscr();
-// 	while (1)
-// 	{
-// 		lcd_key = read_buttons();
-//
-// 		if (lcd_key == 1) sel = 1;
-// 		if (lcd_key == 2) sel = 2;
-// 		if (lcd_key == 3) sel = 3;
-// 		if (lcd_key == 4) sel = 4;
-//
-// 		if (lcd_key == 5)
-// 		{
-// 			bit_flip(PCTL0, BIT(PRUN0));
-// 			_delay_ms(250);
-// 		}
-//
-// 		if (enc > enc_prev)
-// 		{
-// 			if (sel == 1) OCR0SA += 10;
-// 			if (sel == 2) OCR0RA += 10;
-// 			if (sel == 3) OCR0SB += 10;
-// 			if (sel == 4) OCR0RB += 10;
-// 		}
-// 		if (enc < enc_prev)
-// 		{
-// 			if (sel == 1) OCR0SA -= 10;
-// 			if (sel == 2) OCR0RA -= 10;
-// 			if (sel == 3) OCR0SB -= 10;
-// 			if (sel == 4) OCR0RB -= 10;
-// 		}
-// 		enc_prev = enc;
-//
-// 		lcd_gotoxy(14,0);
-// 		if (sel == 1) lcd_puts("OCR0SA");
-// 		if (sel == 2) lcd_puts("OCR0RA");
-// 		if (sel == 3) lcd_puts("OCR0SB");
-// 		if (sel == 4) lcd_puts("OCR0RB");
-//
-// 		lcd_gotoxy(0,0);
-// 		itoa(OCR0SA, str, 10);
-// 		lcd_puts("OCR0SA=");
-// 		lcd_puts(str);
-// 		lcd_puts("   ");
-//
-// 		lcd_gotoxy(0,1);
-// 		itoa(OCR0RA, str, 10);
-// 		lcd_puts("OCR0RA=");
-// 		lcd_puts(str);
-// 		lcd_puts("   ");
-//
-// 		lcd_gotoxy(0,2);
-// 		itoa(OCR0SB, str, 10);
-// 		lcd_puts("OCR0SB=");
-// 		lcd_puts(str);
-// 		lcd_puts("   ");
-//
-// 		lcd_gotoxy(0,3);
-// 		itoa(OCR0RB, str, 10);
-// 		lcd_puts("OCR0RB=");
-// 		lcd_puts(str);
-// 		lcd_puts("   ");
-// 	}
-
-// 	lcd_puts("    Select Mode");
-// 	lcd_key = btnNONE;
-// 	while(lcd_key == btnNONE)
-// 	{
-// 		lcd_key = read_buttons();
-// 	}
-// 	lcd_clrscr();
+	lcd_puts("    Select Mode");
+	lcd_key = btnNONE;
+	while(lcd_key == btnNONE)
+	{
+		lcd_key = read_buttons();
+	}
+	lcd_clrscr();
 
 
 	bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
