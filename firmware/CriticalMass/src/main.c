@@ -219,26 +219,6 @@ int main(void)
 // 		lcd_puts("   ");
 // 	}
 
-// 	while(1)
-// 	{
-// 		lcd_clrscr();
-// 		if (bit_is_clear(SS_SW_PIN, SS_SW_BIT))
-// 		{
-// 			lcd_puts("ON");
-// 			puts("ON");
-//
-// 			bit_flip(INDICATOR_PORT, BIT(INDICATOR_BIT));
-// 		}
-// 		else
-// 		{
-// 			lcd_puts("OFF");
-// 			//puts("OFF");
-//
-// 			bit_clear(INDICATOR_PORT, BIT(INDICATOR_BIT));
-// 		}
-// 		_delay_ms(150);
-// 	}
-
 	//while(1)
 	//{
 		//char buffer[10];
