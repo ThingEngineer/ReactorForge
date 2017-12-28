@@ -219,24 +219,6 @@ int main(void)
 // 		lcd_puts("   ");
 // 	}
 
-// 	while(1)
-// 	{
-// 		lcd_clrscr();
-// 		lcd_puts("on");
-// 		bit_set(INDICATOR_PORT, BIT(INDICATOR_BIT));
-// 		bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
-// 		bit_set(PUMP_PORT, BIT(PUMP_BIT));
-// 		_delay_ms(500);
-//
-// 		lcd_clrscr();
-// 		lcd_puts("off");
-// 		bit_clear(INDICATOR_PORT, BIT(INDICATOR_BIT));
-// 		bit_clear(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
-// 		bit_clear(PUMP_PORT, BIT(PUMP_BIT));
-// 		_delay_ms(1000);
-// 	}
-
-
 // 	lcd_puts("    Select Mode");
 // 	lcd_key = btnNONE;
 // 	while(lcd_key == btnNONE)
