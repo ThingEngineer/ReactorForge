@@ -138,29 +138,33 @@ void setup() {
 ****************************************************************************/
 int main(void)
 {
-	//_delay_ms(100);
+	// Run setup code
 	setup();
+	// Reset system settings
 	reset_ss();
 
+	// Write startup screen
 	lcd_gotoxy(0,0);
 	lcd_puts("  ReactorForge.com");
-
 	lcd_gotoxy(0,1);
 	lcd_puts("  Core Ver 0.0a1");
-
 	lcd_gotoxy(0,3);
-
-	lcd_key = read_buttons();
 	lcd_puts("    Select Mode");
+
+	// Wait for button press to select mode
 	lcd_key = btnNONE;
 	while(lcd_key == btnNONE)
 	{
+		// Read buttons and save current state
 		lcd_key = read_buttons();
 	}
+
+	// Clear LCD
 	lcd_clrscr();
 
-
+	// Turn contactor on
 	bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
+
 	//#########################################################################################
 	if (lcd_key == btn1)	// Enter manual control mode if button 1 is held during startup
 	{
