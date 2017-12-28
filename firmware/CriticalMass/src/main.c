@@ -56,7 +56,7 @@ void setup() {
  	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));					// Start/Stop swtich
 	bit_set(ENC_A_PORT, BIT(ENC_A_BIT));					// Encoder output A
 	bit_set(ENC_B_PORT, BIT(ENC_B_BIT));					// Encoder output B
-	bit_set(PORTD, BIT(2));												// IGBT Fault
+	bit_set(IGBT_FAULT_PORT, BIT(IGBT_FAULT_BIT));// IGBT Fault
 
 	// USART Setup
 	bit_set(UCSRB, BIT(RXEN) | BIT(TXEN));				// Enable receiver and transmitter

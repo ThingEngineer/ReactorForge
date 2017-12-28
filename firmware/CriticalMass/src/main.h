@@ -92,6 +92,11 @@ static FILE uart_input = FDEV_SETUP_STREAM(NULL, uart_getchar, _FDEV_SETUP_READ)
 #define SS_SW_PIN PIND
 #define SS_SW_BIT 6
 
+// IGBT Fault - Triggers PSCIN2
+#define IGBT_FAULT_PORT PORTD
+#define IGBT_FAULT_PIN PIND
+#define IGBT_FAULT_BIT 2
+
 // Encoder output A - Determines directoin
 #define ENC_A_PORT PORTD
 #define ENC_A_PIN PIND
