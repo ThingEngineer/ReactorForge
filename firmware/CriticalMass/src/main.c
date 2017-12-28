@@ -227,42 +227,6 @@ int main(void)
 // 	}
 // 	lcd_clrscr();
 
-// if (read_buttons() == btnUP)
-// {
-// 	lcd_puts("ZCD Test");
-//
-// 	while (1)
-// 	{
-// 		lcd_key = read_buttons();
-//
-// 		if (lcd_key == btnUP)
-// 		{
-//
-// 				OCR1A = OCR1A + 1;
-//
-// 				char str[5];					// Buffer for the ASCII string
-// 				itoa(OCR1A, str, 10);			// Convert the integer (print_buf) to an ASCII string (str) in base 10
-// 				lcd_clrscr();
-// 				lcd_puts(str);
-//
-// 				_delay_ms(50);
-//
-// 		}
-//
-// 		if (lcd_key == btnDOWN)
-// 		{
-//
-// 				OCR1A = OCR1A - 1;
-// 				char str[5];					// Buffer for the ASCII string
-// 				itoa(OCR1A, str, 10);			// Convert the integer (print_buf) to an ASCII string (str) in base 10
-// 				lcd_clrscr();
-// 				lcd_puts(str);
-//
-// 				_delay_ms(50);
-//
-// 		}
-// 	}
-// }
 
 	bit_set(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
 	//#########################################################################################
