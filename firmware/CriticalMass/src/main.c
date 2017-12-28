@@ -1006,31 +1006,31 @@ void incr_freq(uint8_t steps)
 }
 
 
-/****************************************************************************
-* NAME:        decr_freq
-* DESCRIPTION: Decrement PSC frequency by 1 ontime step
-* ARGUMENTS:   void
-* RETURNS:     void
-****************************************************************************/
+/**
+ * [decr_freq Decrement PSC frequency by 1 ontime step]
+ */
 void decr_freq(void)
 {
-	if (lock_flag == 1)
+	if (lock_flag == 1)																					// If locked on setpoint
 	{
 		byte_temp = (lock_value + phase_adjustment) + frq_range;	// Calculate lower soft frequency limit
-		if (ontime == byte_temp)									// Increment lower limit count and exit if limit is hit
+		if (ontime == byte_temp)																	// If limit is hit
 		{
-			lower_limit_cnt = lower_limit_cnt + 1;
-			return;
+			lower_limit_cnt = lower_limit_cnt + 1;									// Increment lower limit count
+			return;																									//	and exit
 		}
-		lower_limit_cnt = 0;
-	}
-	ontime = ontime + 1;								// Decrement PSC frequency
-	if (ontime > 800)
-	{
-		ontime = 800;									// Hard lower limit
+		lower_limit_cnt = 0;																			// lower limit not hit, reset the hit counter
 	}
 
-	set_frequency();
+	// No lock or lower limit not hit, clear to decrement frequency
+
+	ontime = ontime + 1;																				// Decrement PSC frequency
+	if (ontime > ontime_floor)																	// If ontime is above hard lower limit
+	{
+		ontime = ontime_floor;																		// Cap it at the ontime lower limit
+	}
+
+	set_frequency();																						// Set new inverter frequency
 }
 
 
