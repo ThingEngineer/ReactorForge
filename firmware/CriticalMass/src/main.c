@@ -53,65 +53,64 @@ void setup() {
 	bit_clear(BUZZER_PORT, BIT(BUZZER_BIT));
 
 	// Set pull ups
- 	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));
-	bit_set(ENC_PORT, BIT(ENC_BIT));
-	bit_set(PORTC, BIT(0));		// Rotary encoder
-	bit_set(PORTD, BIT(2));		// IGBT Fault
+ 	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));					// Start/Stop swtich
+	bit_set(ENC_PORT, BIT(ENC_BIT));							// Encoder output A
+	bit_set(PORTC, BIT(0));												// Rotary encoder
+	bit_set(PORTD, BIT(2));												// IGBT Fault
 
 	// USART Setup
-	//uart_init( UART_BAUD_SELECT(UART_BAUD_RATE) );
-	bit_set(UCSRB, BIT(RXEN) | BIT(TXEN));			// Enable receiver and transmitter
-	bit_set(UCSRC, BIT(UCSZ0) | BIT(UCSZ1));		// Use 8-bit character sizes
-	UBRRH = (BAUD_PRESCALE >> 8);					// Load upper 8-bits of the baud rate value into the high byte of the UBRR register
-	UBRRL = BAUD_PRESCALE;							// Load lower 8-bits of the baud rate value into the low byte of the UBRR register
-	stdout = &uart_output;							// Redirect STDOUT to UART
-	stdin  = &uart_input;							// Redirect STDIN to UART
+	bit_set(UCSRB, BIT(RXEN) | BIT(TXEN));				// Enable receiver and transmitter
+	bit_set(UCSRC, BIT(UCSZ0) | BIT(UCSZ1));			// Use 8-bit character sizes
+	UBRRH = (BAUD_PRESCALE >> 8);									// Load upper 8-bits of the baud rate value into the high byte of the UBRR register
+	UBRRL = BAUD_PRESCALE;												// Load lower 8-bits of the baud rate value into the low byte of the UBRR register
+	stdout = &uart_output;												// Redirect STDOUT to UART
+	stdin  = &uart_input;													// Redirect STDIN to UART
 
 	// Power Stage Controller Setup
-	bit_set(PSOC0,  BIT(POEN0A));					// PSC 0 Synchronization and Output Configuration - Enable Part A - Buzzer output
-	//bit_set(PSOC1,  BIT());						// PSC 1 Synchronization and Output Configuration
+	bit_set(PSOC0,  BIT(POEN0A));									// PSC 0 Synchronization and Output Configuration - Enable Part A - Buzzer output
+	//bit_set(PSOC1,  BIT());											// PSC 1 Synchronization and Output Configuration
 	bit_set(PSOC2, BIT(POEN2B) | BIT(POEN2A));		// PSC 2 Synchronization and Output Configuration - Enable Part A & B - Inverter output
 
-	bit_set(PCNF0, BIT(POP0));						// PSC 0 Configuration Register - 1 ramp mode, Active high
-	bit_set(PCNF1, BIT(PCLKSEL1));					// PSC 1 Configuration Register - 1 ramp mode, fast clock
-	bit_set(PCNF2, BIT(PCLKSEL2));					// PSC 2 Configuration Register - 1 ramp mode, fast clock
+	bit_set(PCNF0, BIT(POP0));										// PSC 0 Configuration Register - 1 ramp mode, Active high
+	bit_set(PCNF1, BIT(PCLKSEL1));								// PSC 1 Configuration Register - 1 ramp mode, fast clock
+	bit_set(PCNF2, BIT(PCLKSEL2));								// PSC 2 Configuration Register - 1 ramp mode, fast clock
 
-	bit_set(PCTL0, BIT(PPRE00));					// PSC 0 Control Register - /4 Prescaler
-	//bit_set(PCTL1, BIT());						// PSC 1 Control Register
-	bit_set(PCTL2, BIT(PARUN2));					// PSC 2 Control Register - Autostart PSC2 with PSC1
+	bit_set(PCTL0, BIT(PPRE00));									// PSC 0 Control Register - /4 Prescaler
+	//bit_set(PCTL1, BIT());											// PSC 1 Control Register
+	bit_set(PCTL2, BIT(PARUN2));									// PSC 2 Control Register - Autostart PSC2 with PSC1
 
-	//bit_set(PFRC0A, BIT());						// PSC 0 Input A Control Register - Enable capture, on PSCIN0, falling edge trigger, noise canceler off, no action only used for resonant inverter phase detection by reading input capture register
-	//bit_set(PFRC0B, BIT());						// PSC 0 Input B Control Register
-	bit_set(PFRC1A, BIT(PCAE0A));					// PSC 1 Input A Control Register - Enable capture, on PSCIN0, falling edge trigger, noise canceler off, no action only used for resonant inverter phase detection by reading input capture register
-	//bit_set(PFRC1B, BIT());						// PSC 1 Input B Control Register
+	//bit_set(PFRC0A, BIT());											// PSC 0 Input A Control Register - Enable capture, on PSCIN0, falling edge trigger, noise canceler off, no action only used for resonant inverter phase detection by reading input capture register
+	//bit_set(PFRC0B, BIT());											// PSC 0 Input B Control Register
+	bit_set(PFRC1A, BIT(PCAE0A));									// PSC 1 Input A Control Register - Enable capture, on PSCIN0, falling edge trigger, noise canceler off, no action only used for resonant inverter phase detection by reading input capture register
+	//bit_set(PFRC1B, BIT());											// PSC 1 Input B Control Register
 	bit_set(PFRC2A, BIT(PCAE2A) | BIT(PRFM2A2) | BIT(PRFM2A1) | BIT(PRFM2A0));	// PSC 2 Input A Control Register - Enable capture, on PSCIN2, low level trigger, mode 7 (halt)
-	//bit_set(PFRC2B, BIT());						// PSC 2 Input B Control Register
+	//bit_set(PFRC2B, BIT());											// PSC 2 Input B Control Register
 
-	//bit_set(PIM0, BIT(PEVE0A));					// PSC 0 Interrupt Mask Register - Enable interrupt on block A capture event
-	//bit_set(PIM1, BIT(PEVE1A));					// PSC 1 Interrupt Mask Register - Enable interrupt on block A capture event
-	//bit_set(PIM2, BIT(PEVE2A));					// PSC 2 Interrupt Mask Register - Enable interrupt on block A capture event
+	//bit_set(PIM0, BIT(PEVE0A));									// PSC 0 Interrupt Mask Register - Enable interrupt on block A capture event
+	//bit_set(PIM1, BIT(PEVE1A));									// PSC 1 Interrupt Mask Register - Enable interrupt on block A capture event
+	//bit_set(PIM2, BIT(PEVE2A));									// PSC 2 Interrupt Mask Register - Enable interrupt on block A capture event
 
 	// Analog Comparator Setup
-	//bit_set(AC0CON, BIT(AC0EN));					// ACMP0
-	//bit_set(DIDR1, BIT(ACMP0D));					// Digital Input Disable for ACMP0
+	//bit_set(AC0CON, BIT(AC0EN));								// ACMP0
+	//bit_set(DIDR1, BIT(ACMP0D));								// Digital Input Disable for ACMP0
 
 	// ADC Setup
 	bit_set(ADMUX, BIT(MUX3) | BIT(MUX2) | BIT(MUX1) | BIT(MUX0));		// ADC Multiplexer Register (V ref on AREF, right adjust, Ground ADC input)
-	bit_set(ADCSRA, BIT(ADEN) | BIT(ADSC) | BIT(ADPS2));				// ADC Control and Status Register A (Enable ADC, Start ADC (initialize), Prescaler 16)
-	bit_set(ADCSRB, BIT(ADHSM));										// ADC Control and Status Register B (High Speed Mode)
-	bit_set(DIDR0, BIT(ADC2D));											// Digital Input Disable Register 0
-	bit_set(DIDR1, BIT(ADC8D) | BIT(ADC9D) | BIT(ADC10D));				// Digital Input Disable Register 1
+	bit_set(ADCSRA, BIT(ADEN) | BIT(ADSC) | BIT(ADPS2));							// ADC Control and Status Register A (Enable ADC, Start ADC (initialize), Prescaler 16)
+	bit_set(ADCSRB, BIT(ADHSM));																			// ADC Control and Status Register B (High Speed Mode)
+	bit_set(DIDR0, BIT(ADC2D));																				// Digital Input Disable Register 0
+	bit_set(DIDR1, BIT(ADC8D) | BIT(ADC9D) | BIT(ADC10D));						// Digital Input Disable Register 1
 
 	// LCD Setup
-	lcd_init(LCD_DISP_ON);
-	lcd_clrscr();
+	lcd_init(LCD_DISP_ON);							// Initialize LCD
+	lcd_clrscr();												// Clear LCD display
 
-	// Scan One Wire for devices
-	OW_nSensors = search_sensors();
+	// OneWire setup
+	OW_nSensors = search_sensors();			// Scan One Wire for devices
 
 	// INT1 Interrupt - AC Mains ZCD
-    bit_set(EICRA, BIT(ISC11));					// INT1 Falling edge trigger
-    bit_set(EIMSK, BIT(INT1));					// Enable INT1
+  bit_set(EICRA, BIT(ISC11));					// INT1 Falling edge trigger
+  bit_set(EIMSK, BIT(INT1));					// Enable INT1
 
 	// INT3 Interrupt - Rotary encoder B output
 	bit_set(EICRA, BIT(ISC31));					// INT3 Falling edge trigger
@@ -121,7 +120,7 @@ void setup() {
 	bit_set(TCCR1A, BIT(WGM12));				// Timer1 CTC Mode
 	bit_set(TIMSK1, BIT(OCIE1A));				// Enable CTC Interrupt
 
-	sei();										// Enable Global Interrupt
+	sei();															// Enable Global Interrupt
 
 	inverter_current_max = 200;					// Initial maximum inverter current
 
