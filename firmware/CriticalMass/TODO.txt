@@ -14,3 +14,8 @@
   Add function DOCUMENTATION
   Add variable DOCUMENTATION
   Clean up comments - Tab spacing, capitalization, punctuation, clarity, location (above code or to the right of it)
+
+
+--HARDWARE--
+
+  Add hardware pull up for IGBT_FAULT_PIN
