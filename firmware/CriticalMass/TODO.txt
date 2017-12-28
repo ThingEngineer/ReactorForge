@@ -22,5 +22,3 @@
 
 
 --HARDWARE--
-
-  Add hardware pull up for IGBT_FAULT_PIN
