@@ -92,10 +92,15 @@ static FILE uart_input = FDEV_SETUP_STREAM(NULL, uart_getchar, _FDEV_SETUP_READ)
 #define SS_SW_PIN PIND
 #define SS_SW_BIT 6
 
-// Encoder output A
-#define ENC_PORT PORTD
-#define ENC_PIN PIND
-#define ENC_BIT 1
+// Encoder output A - Determines directoin
+#define ENC_A_PORT PORTD
+#define ENC_A_PIN PIND
+#define ENC_A_BIT 1
+
+// Encoder output B - Triggers INT3_vect
+#define ENC_B_PORT PORTC
+#define ENC_B_PIN PINC
+#define ENC_B_BIT 0
 
 // Indicator output
 #define INDICATOR_PORT PORTC

@@ -54,8 +54,8 @@ void setup() {
 
 	// Set pull ups
  	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));					// Start/Stop swtich
-	bit_set(ENC_PORT, BIT(ENC_BIT));							// Encoder output A
-	bit_set(PORTC, BIT(0));												// Rotary encoder
+	bit_set(ENC_A_PORT, BIT(ENC_A_BIT));					// Encoder output A
+	bit_set(ENC_B_PORT, BIT(ENC_B_BIT));					// Encoder output B
 	bit_set(PORTD, BIT(2));												// IGBT Fault
 
 	// USART Setup
@@ -1300,7 +1300,7 @@ ISR(INT1_vect, ISR_BLOCK)
 ISR(INT3_vect, ISR_BLOCK)
 {
 	// Check the level of encoder output A to determine direction
-	if (bit_is_set(ENC_PIN, ENC_BIT))
+	if (bit_is_set(ENC_A_PIN, ENC_A_BIT))
 		enc++;
 	else
 		enc--;
