@@ -155,16 +155,7 @@ int main(void)
 
 	lcd_key = read_buttons();
 
-// 	//Buzzer Test 2, PWM
-// 	char str[10];
-// 	uint8_t sel = 1;
-//
-// 	OCR0SA = 0;
-// 	OCR0RA = 680;
-// 	OCR0SB = 0;
-// 	OCR0RB = 1360;
-// 	bit_set(PCTL0, BIT(PRUN0));
-//
+
 // 	lcd_clrscr();
 // 	while (1)
 // 	{
@@ -226,63 +217,6 @@ int main(void)
 // 		lcd_puts("OCR0RB=");
 // 		lcd_puts(str);
 // 		lcd_puts("   ");
-// 	}
-
-// 	// Buzzer test 3 - 50% waveform pwm
-// 	lcd_clrscr();
-// 	char str[10];
-// 	ontime = 680;
-// 	bit_set(PCTL0, BIT(PRUN0));
-// 	while (1)
-// 	{
-// 		lcd_key = read_buttons();
-// 		if (lcd_key == 5)
-// 		{
-// 			bit_flip(PCTL0, BIT(PRUN0));
-// 			_delay_ms(250);
-// 		}
-//
-// 		if (enc > enc_prev)
-// 		{
-// 			ontime += 10;
-//
-// 			lcd_gotoxy(0,0);
-// 			itoa(ontime, str, 10);
-// 			lcd_puts("OnTime=");
-// 			lcd_puts(str);
-// 			lcd_puts("   ");
-// 		}
-// 		if (enc < enc_prev)
-// 		{
-// 			ontime -= 10;
-//
-// 			lcd_gotoxy(0,0);
-// 			itoa(ontime, str, 10);
-// 			lcd_puts("OnTime=");
-// 			lcd_puts(str);
-// 			lcd_puts("   ");
-// 		}
-// 		enc_prev = enc;
-//
-// 		OCR0SA = 0;
-// 		OCR0RA = ontime;
-// 		OCR0SB = 0;
-// 		OCR0RB = ontime * 2;
-// 	}
-
-// 	// Buzzer test 4 - siren
-// 	bit_set(PCTL0, BIT(PRUN0));
-// 	while (1)
-// 	{
-// 		for (ontime = 1500; ontime > 500; ontime--)
-// 		{
-// 			OCR0SA = 0;
-// 			OCR0RA = ontime;
-// 			OCR0SB = 0;
-// 			OCR0RB = ontime * 2;
-//
-// 			_delay_us(500);
-// 		}
 // 	}
 
 // 	while(1)
