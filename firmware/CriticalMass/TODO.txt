@@ -7,6 +7,10 @@
   Update libraries
   Move obsolete test code out of main
 
+  in incr_freq line:
+    if (ontime == byte_temp)
+    should be (ontime >= byte_temp) ??? Needs tested
+
 --LOW PRIORITY--
 
   Use hardware alias masks to set port data direction registers and pull ups

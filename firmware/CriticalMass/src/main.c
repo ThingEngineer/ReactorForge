@@ -977,31 +977,32 @@ void stop_psc(uint8_t error_status)
 }
 
 
-/****************************************************************************
-* NAME:        incr_freq
-* DESCRIPTION: Increment PSC frequency by 1 ontime step
-* ARGUMENTS:   void
-* RETURNS:     void
-****************************************************************************/
+/**
+ * [incr_freq Increment PSC frequency by X ontime steps]
+ * @param steps Number of step to increment
+ */
 void incr_freq(uint8_t steps)
 {
-	if (lock_flag == 1)
+	if (lock_flag == 1)																					// If locked on setpoint
 	{
 		byte_temp = (lock_value + phase_adjustment) - frq_range;	// Calculate upper soft frequency limit
-		if (ontime == byte_temp)									// Increment upper limit count and exit if limit is hit
+		if (ontime == byte_temp)																	//  If soft limit is hit
 		{
-			upper_limit_cnt = upper_limit_cnt + 1;
-			return;
+			upper_limit_cnt = upper_limit_cnt + 1;									// Increment upper limit count
+			return;																									//	and exit
 		}
-		upper_limit_cnt = 0;
-	}
-	ontime = ontime - steps;							// Increment PSC frequency
-	if (ontime < 95)
-	{
-		ontime = 95;									// Hard upper limit
+		upper_limit_cnt = 0;																			// incr_freq did not hit the upper limit so reset the hit counter
 	}
 
-	set_frequency();
+	// No lock or upper limit not hit, clear to increment frequency
+
+	ontime = ontime - steps;																		// Increment PSC frequency
+	if (ontime < ontime_ceiling)																// If we are at or above hard upper limit
+	{
+		ontime = ontime_ceiling;																	// Cap it at the ontime upper limit
+	}
+
+	set_frequency();																						// Set new inverter frequency
 }
 
 
