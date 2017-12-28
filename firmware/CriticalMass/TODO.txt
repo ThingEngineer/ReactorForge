@@ -10,6 +10,7 @@
   in incr_freq line:
     if (ontime == byte_temp)
     should be (ontime >= byte_temp) ??? Needs tested
+    Currently I am only ever incrementing by 1 "incr_freq(1)" but if I was to increment by more than one this would be an issue.
 
 --LOW PRIORITY--
 
