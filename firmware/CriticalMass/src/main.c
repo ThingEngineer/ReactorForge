@@ -991,13 +991,13 @@ void incr_freq(uint8_t steps)
 			upper_limit_cnt = upper_limit_cnt + 1;									// Increment upper limit count
 			return;																									//	and exit
 		}
-		upper_limit_cnt = 0;																			// incr_freq did not hit the upper limit so reset the hit counter
+		upper_limit_cnt = 0;																			// Upper limit not hit, reset the hit counter
 	}
 
 	// No lock or upper limit not hit, clear to increment frequency
 
 	ontime = ontime - steps;																		// Increment PSC frequency
-	if (ontime < ontime_ceiling)																// If we are at or above hard upper limit
+	if (ontime < ontime_ceiling)																// If ontime is below hard upper limit
 	{
 		ontime = ontime_ceiling;																	// Cap it at the ontime upper limit
 	}
@@ -1019,7 +1019,7 @@ void decr_freq(void)
 			lower_limit_cnt = lower_limit_cnt + 1;									// Increment lower limit count
 			return;																									//	and exit
 		}
-		lower_limit_cnt = 0;																			// lower limit not hit, reset the hit counter
+		lower_limit_cnt = 0;																			// Lower limit not hit, reset the hit counter
 	}
 
 	// No lock or lower limit not hit, clear to decrement frequency
