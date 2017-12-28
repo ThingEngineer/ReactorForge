@@ -53,7 +53,6 @@ void setup() {
 	bit_clear(BUZZER_PORT, BIT(BUZZER_BIT));			// Turn buzzer off
 
 	// Set pull ups
- 	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));					// Start/Stop swtich
 	bit_set(IGBT_FAULT_PORT, BIT(IGBT_FAULT_BIT));// IGBT Fault
 
 	// USART Setup
