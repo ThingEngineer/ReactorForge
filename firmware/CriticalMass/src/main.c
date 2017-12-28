@@ -227,63 +227,6 @@ int main(void)
 // 	}
 // 	lcd_clrscr();
 
-// 	_delay_ms(1000);
-// 	lcd_clrscr();
-// 	lcd_puts("Temp Sensor Test");
-// 	_delay_ms(1000);
-// 	lcd_clrscr();
-//
-// 	char s[5];
-// 	float fahrenheit;
-//
-// 	while(1)
-// 	{
-//
-// 		OW_error = 0;
-//
-// 		if ( OW_nSensors == 0 ) {
-// 			OW_error++;
-// 		}
-//
-// 		if ( DS18X20_start_meas( DS18X20_POWER_EXTERN, NULL ) == DS18X20_OK)
-// 		{
-// 			if (OW_nSensors == 0)
-// 			{
-// 				lcd_puts("No sensors found");
-// 			}
-//
-// 			lcd_home();
-// 			_delay_ms( DS18B20_TCONV_12BIT );
-// 			for ( i = 0; i < OW_nSensors; i++ )
-// 			{
-// 				if ( DS18X20_read_decicelsius( &gSensorIDs[i][0], &deciCelsius ) == DS18X20_OK )
-// 				{
-// 					if (i == 2) lcd_gotoxy(0,1);
-//
-// 					DS18X20_format_from_decicelsius( deciCelsius, s, 10 );
-// 					lcd_puts(s);
-// 					lcd_puts(" ");
-//
-// 					//fahrenheit = (deciCelsius * 9.0)/ 5.0 + 32.0;
-// 					//fahrenheit = (18*(deciCelsius)+(10*16*32))/16;
-// 					//DS18X20_format_from_decicelsius( fahrenheit, s, 10 );
-//
-// 				}
-// 				else
-// 				{
-// 					lcd_puts( "CRC Error" );
-// 					OW_error++;
-// 				}
-// 			}
-// 			//puts( NEWLINESTR );
-// 		}
-// 		else
-// 		{
-// 			lcd_puts( "Temp meas failed" );
-// 			OW_error++;
-// 		}
-// 	}
-
 // if (read_buttons() == btnUP)
 // {
 // 	lcd_puts("ZCD Test");
