@@ -146,10 +146,7 @@ int main(void)
 	lcd_puts("  ReactorForge.com");
 
 	lcd_gotoxy(0,1);
-	lcd_puts(" ");
-
-	lcd_gotoxy(0,2);
-	lcd_puts("ReactorCore V0.0a1");
+	lcd_puts("  Core Ver 0.0a1");
 
 	lcd_gotoxy(0,3);
 
