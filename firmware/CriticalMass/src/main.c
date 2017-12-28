@@ -47,10 +47,10 @@ void setup() {
 	DDRE = 0b00000000;
 
 	// Initial output port states
-	bit_clear(INDICATOR_PORT, BIT(INDICATOR_BIT));
-	bit_clear(CONTACTOR_PORT, BIT(CONTACTOR_BIT));
-	bit_clear(PUMP_PORT, BIT(PUMP_BIT));
-	bit_clear(BUZZER_PORT, BIT(BUZZER_BIT));
+	bit_clear(INDICATOR_PORT, BIT(INDICATOR_BIT));// Turn indicator light off
+	bit_clear(CONTACTOR_PORT, BIT(CONTACTOR_BIT));// Turn contactor off
+	bit_clear(PUMP_PORT, BIT(PUMP_BIT));					// Turn pump switch off
+	bit_clear(BUZZER_PORT, BIT(BUZZER_BIT));			// Turn buzzer off
 
 	// Set pull ups
  	bit_set(SS_SW_PORT, BIT(SS_SW_BIT));					// Start/Stop swtich
