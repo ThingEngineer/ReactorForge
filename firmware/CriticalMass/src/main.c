@@ -57,7 +57,6 @@ void setup() {
 	bit_set(ENC_PORT, BIT(ENC_BIT));
 	bit_set(PORTC, BIT(0));		// Rotary encoder
 	bit_set(PORTD, BIT(2));		// IGBT Fault
-	//bit_set(PORTC, BIT(6));	// Multiplexed buttons
 
 	// USART Setup
 	//uart_init( UART_BAUD_SELECT(UART_BAUD_RATE) );
