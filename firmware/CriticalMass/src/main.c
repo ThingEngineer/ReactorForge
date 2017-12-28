@@ -219,18 +219,6 @@ int main(void)
 // 		lcd_puts("   ");
 // 	}
 
-	//while(1)
-	//{
-		//char buffer[10];
-		//adc_key_in = get_adc(10);
-		//itoa(adc_key_in, buffer, 10);   // convert integer into string (decimal format)
-		//
-		//lcd_clrscr();
-		//lcd_puts(buffer);
-		//
-		//_delay_ms(250);
-	//}
-
 // 	while(1)
 // 	{
 // 		lcd_clrscr();
