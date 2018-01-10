@@ -122,8 +122,8 @@
 <text x="36.83" y="5.08" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">reactorforge.com</text>
 <text x="17.145" y="5.08" size="1.524" layer="21" font="vector" ratio="15">reactorforge.com</text>
 <text x="0.635" y="4.445" size="1.27" layer="21" font="vector" ratio="15">V1.3 CC BY-SA</text>
-<text x="43.307" y="70.866" size="1.778" layer="1" font="vector" ratio="15">R</text>
-<text x="47.117" y="70.866" size="1.778" layer="1" font="vector" ratio="15">F</text>
+<text x="43.307" y="69.596" size="1.778" layer="1" font="vector" ratio="15">R</text>
+<text x="47.117" y="69.596" size="1.778" layer="1" font="vector" ratio="15">F</text>
 </plain>
 <libraries>
 <library name="1-Custom">
@@ -3046,7 +3046,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="C" x="46.736" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="49.276" y="1.651" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="GOLD_ORB_SM1" library="oshw" package="OSHW_8MM" value="OSHWLOGOLOGO8MM" x="45.72" y="71.755"/>
+<element name="GOLD_ORB_SM1" library="oshw" package="OSHW_8MM" value="OSHWLOGOLOGO8MM" x="45.72" y="70.485"/>
 </elements>
 <signals>
 <signal name="GND">
