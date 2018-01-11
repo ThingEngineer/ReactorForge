@@ -119,7 +119,6 @@
 <wire x1="0" y1="76.2" x2="0" y2="0" width="0" layer="20"/>
 <text x="0.635" y="2.54" size="1.524" layer="21" font="vector" ratio="15">ReactorForge</text>
 <text x="0.635" y="0.635" size="1.524" layer="21" font="vector" ratio="15">Hybrid Driver</text>
-<text x="36.83" y="5.08" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">reactorforge.com</text>
 <text x="17.145" y="5.08" size="1.524" layer="21" font="vector" ratio="15">reactorforge.com</text>
 <text x="0.635" y="4.445" size="1.27" layer="21" font="vector" ratio="15">V1.3 CC BY-SA</text>
 <text x="43.307" y="69.596" size="1.778" layer="1" font="vector" ratio="15">R</text>
@@ -2946,39 +2945,39 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="32.4104" y="7.7724" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C1" library="resistor" package="E2,5-7" value="82uF" x="11.43" y="41.91" smashed="yes">
-<attribute name="NAME" x="15.113" y="41.402" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="14.478" y="43.942" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="14.478" y="38.735" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="resistor" package="E2,5-7" value="82uF" x="12.7" y="49.53" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.542" y="50.038" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="16.637" y="53.848" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="9.652" y="52.705" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C5" library="resistor" package="E2,5-7" value="82uF" x="38.1" y="41.91" smashed="yes">
-<attribute name="NAME" x="41.783" y="41.402" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="41.148" y="43.942" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="41.148" y="38.735" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C6" library="resistor" package="E2,5-7" value="82uF" x="39.37" y="49.53" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.212" y="50.038" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="43.307" y="53.848" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="36.322" y="52.705" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R1" library="resistor" package="0207/10" value="4.7K" x="15.24" y="31.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.557" y="32.004" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="15.875" y="30.353" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="14.605" y="34.0106" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R2" library="resistor" package="0207/10" value="4.7K" x="41.91" y="31.75" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.227" y="32.004" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="42.545" y="30.353" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="41.275" y="34.0106" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R3" library="resistor" package="0207/10" value="4.7K" x="41.91" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.307" y="6.604" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="42.545" y="6.223" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="41.275" y="8.6106" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="RG1" library="resistor" package="0309/12" value="3" x="7.62" y="52.07" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.144" y="53.34" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="8.255" y="50.419" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="8.3058" y="48.895" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RG2" library="resistor" package="0309/12" value="3" x="34.29" y="52.07" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.814" y="53.34" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="34.925" y="50.419" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="34.9758" y="48.895" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="CN2" library="solpad" package="SE14" value="SE14" x="4.445" y="74.295" smashed="yes">
@@ -2996,29 +2995,29 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="32.766" y="60.579" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.591" y="60.579" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D4" library="diode" package="DO07" value="MUR1100E" x="22.86" y="66.04" smashed="yes">
-<attribute name="NAME" x="21.971" y="63.119" size="1.27" layer="25" ratio="10"/>
+<element name="D4" library="diode" package="DO07" value="MUR1100E" x="22.86" y="65.405" smashed="yes">
+<attribute name="NAME" x="21.971" y="62.484" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="DZ2" library="1-Custom" package="DIODE.4-AXIAL" value="1N4745" x="1.905" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="0.381" y="56.134" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="0.381" y="56.642" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.826" y="51.181" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="DZ1" library="1-Custom" package="DIODE.4-AXIAL" value="1N4745" x="4.445" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.191" y="56.134" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="4.064" y="56.642" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="DZ4" library="1-Custom" package="DIODE.4-AXIAL" value="1N4745" x="31.115" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.639" y="56.769" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="29.972" y="56.642" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="34.036" y="51.181" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="DZ5" library="1-Custom" package="DIODE.4-AXIAL" value="1N4745" x="28.575" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.654" y="56.769" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="26.289" y="56.642" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="DZ3" library="1-Custom" package="DIODE.4-AXIAL" value="1N4751" x="16.51" y="60.96" smashed="yes">
 <attribute name="NAME" x="16.256" y="62.484" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="13.081" y="58.039" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="DZ6" library="1-Custom" package="DIODE.4-AXIAL" value="1N4751" x="41.91" y="61.595" smashed="yes">
-<attribute name="NAME" x="42.672" y="58.928" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="43.434" y="58.801" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="38.481" y="58.674" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="JP1" library="jumper" package="JP1" value="0" x="12.7" y="57.785" smashed="yes" rot="R90">
@@ -3030,16 +3029,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="42.545" y="60.706" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="G1" library="1-Custom" package="IGBT-PAD" value="IGBT-PAD" x="12.065" y="70.485" smashed="yes">
-<attribute name="NAME" x="12.954" y="68.326" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.081" y="68.326" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="E1" library="1-Custom" package="IGBT-PAD" value="IGBT-PAD" x="18.415" y="70.485" smashed="yes">
-<attribute name="NAME" x="19.304" y="68.072" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="19.431" y="68.072" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="G2" library="1-Custom" package="IGBT-PAD" value="IGBT-PAD" x="39.37" y="70.485" smashed="yes">
-<attribute name="NAME" x="40.386" y="68.199" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="40.513" y="68.072" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="E2" library="1-Custom" package="IGBT-PAD" value="IGBT-PAD" x="33.02" y="70.485" smashed="yes">
-<attribute name="NAME" x="33.909" y="67.945" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="34.036" y="68.072" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="10uF" x="46.736" y="3.81" smashed="yes">
 <attribute name="NAME" x="47.371" y="6.731" size="1.27" layer="25" ratio="10"/>
@@ -3271,7 +3270,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$25">
 <contactref element="D3" pad="C"/>
 <contactref element="D4" pad="A"/>
-<wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="1.27" layer="1"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="65.405" width="1.27" layer="1"/>
 </signal>
 <signal name="N$30" class="1">
 <contactref element="U4" pad="8"/>
