@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2710,7 +2710,7 @@ grid 2.032 mm, diameter 5 mm</description>
 <vertex x="-1.143" y="-2.6416"/>
 <vertex x="-0.9906" y="-2.7178"/>
 </polygon>
-<text x="4.8006" y="-3.6576" size="1.27" layer="25" rot="R180">open source
+<text x="4.8006" y="-3.6576" size="1.27" layer="25" font="vector" rot="R180">open source
   hardware</text>
 </package>
 </packages>
