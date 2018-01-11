@@ -2985,18 +2985,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="4.445" y="74.676" size="0.0254" layer="27"/>
 </element>
 <element name="D1" library="diode" package="DO07" value="MUR1100E" x="8.89" y="63.5" smashed="yes">
-<attribute name="NAME" x="7.366" y="60.579" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="7.112" y="60.452" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="5.461" y="60.579" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="D2" library="diode" package="DO07" value="MUR1100E" x="1.905" y="69.215" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.556" y="68.834" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="3.683" y="68.453" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="D3" library="diode" package="DO07" value="MUR1100E" x="33.02" y="63.5" smashed="yes">
-<attribute name="NAME" x="32.766" y="60.579" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="32.766" y="60.452" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="29.591" y="60.579" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="D4" library="diode" package="DO07" value="MUR1100E" x="22.86" y="65.405" smashed="yes">
-<attribute name="NAME" x="21.971" y="62.484" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.098" y="62.357" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="DZ2" library="1-Custom" package="DIODE.4-AXIAL" value="1N4745" x="1.905" y="54.61" smashed="yes" rot="R90">
 <attribute name="NAME" x="0.381" y="56.642" size="1.27" layer="25" ratio="10"/>
@@ -3013,19 +3013,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="26.289" y="56.642" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="DZ3" library="1-Custom" package="DIODE.4-AXIAL" value="1N4751" x="16.51" y="60.96" smashed="yes">
-<attribute name="NAME" x="16.256" y="62.484" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="17.907" y="57.912" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="13.081" y="58.039" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="DZ6" library="1-Custom" package="DIODE.4-AXIAL" value="1N4751" x="41.91" y="61.595" smashed="yes">
-<attribute name="NAME" x="43.434" y="58.801" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="43.561" y="58.547" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="38.481" y="58.674" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="JP1" library="jumper" package="JP1" value="0" x="12.7" y="57.785" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.415" y="58.674" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="14.224" y="55.88" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="15.24" y="60.706" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="JP2" library="jumper" package="JP1" value="0" x="40.005" y="57.785" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.275" y="56.134" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.402" y="55.88" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="42.545" y="60.706" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="G1" library="1-Custom" package="IGBT-PAD" value="IGBT-PAD" x="12.065" y="70.485" smashed="yes">
