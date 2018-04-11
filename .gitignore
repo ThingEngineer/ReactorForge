@@ -9,8 +9,10 @@ Thumbs.db
 *.swp
 *.sublime-project
 *.sublime-workspace
+.idea/
 
 # Source files
 source/
 *.ai
 *.psd
+supply_chain/
