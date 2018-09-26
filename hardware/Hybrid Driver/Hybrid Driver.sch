@@ -18652,7 +18652,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="CN1" library="con-amp" deviceset="MTA06-100" device="" value="MTA100-6"/>
 <part name="U$2" library="1-Custom" deviceset="LETTER_L" device="">
 <attribute name="LICENSE" value="CC BY-SA"/>
-<attribute name="PROJECT" value="ReactorForge - Hybrid Driver"/>
+<attribute name="PROJECT" value="Reactor Forge - Hybrid Driver"/>
 <attribute name="URL" value="https://github.com/ThingEngineer/ReactorForge"/>
 </part>
 <part name="U4" library="1-Custom" deviceset="VLA106-15242" device=""/>
@@ -18692,8 +18692,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </parts>
 <sheets>
 <sheet>
-<description>&lt;b&gt;i2RD&lt;/b&gt;&lt;br&gt;
-rev 1.0&lt;br&gt;
+<description>&lt;b&gt;Reactor Forge - Hybrid Driver&lt;/b&gt;&lt;br&gt;
+v1.3&lt;br&gt;
 400A Isolated IGBT Hybrid Gate Driver</description>
 <plain>
 <text x="48.26" y="105.41" size="1.778" layer="97" rot="R180">GND</text>
